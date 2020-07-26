@@ -1,0 +1,16 @@
+<% Controle de fluxo (if,for..) %>
+<%= Inprime escapando carecteres %>
+<%- Imprime sem escapar caracteres %>
+<%# Comentário %>
+<% - include('CAMILHO/ARQUIVO'); %>
+
+
+<% if (algumacoisa) {%>
+
+    <%= exibe alguma coisa %>
+
+<% } else { %>
+
+    <%= exibe outra coisa %>
+
+<% } %>
